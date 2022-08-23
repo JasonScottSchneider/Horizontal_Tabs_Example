@@ -1,0 +1,44 @@
+h3 {
+    text-align: left;
+}
+
+/* custom button style */
+#tabsDiv {
+  font-size: 0; // Set to zero to eliminate spaces between tab buttons
+}      
+
+button {
+    border-bottom-style: none;
+    /*background-color: rgb(255 255 255);*/
+    border-radius: 6px 6px 0px 0px;
+    font-size: 14px; // Set font size that you need here
+            
+}
+
+/* Button to open the content */
+.linkclass {
+    float: left;
+    cursor: pointer;
+    padding: 10px 15px 10px 10px;
+
+    background-color: light-grey;
+}
+
+/* Button styling on mouse hover */
+#tabsDiv a:hover {
+    color: black;
+    background-color: #e9e9e9;
+    font-size: 16px;
+}
+
+/* Change the color of the button */
+button.active {
+    background-color: #c0c0c0;
+}
+
+/* Content for button tabs*/
+.contentClass {
+    display: none;
+    padding: 10px 16px;
+    border: 2px solid #c0c0c0;
+}

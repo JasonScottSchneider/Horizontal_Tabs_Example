@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="horizontalTabsStyle.css">
+	<script src="horizontalTabsScript.js" defer></script>
+</head>
+
+<body>
+	<h2 style="color:green">
+		Horizontal tabs example
+	</h2>
+
+	<!-- Link to each tab with onclick event -->
+	<div id="tabsDiv">
+		<button id="Tab1" class="linkClass" onclick=
+			"displayContent(event, 'tab1')">
+			Tab1
+		</button>
+
+		<button class="linkClass" onclick=
+			"displayContent(event, 'tab2')">
+			Tab2
+		</button>
+
+		<button class="linkClass" onclick=
+			"displayContent(event, 'tab3')">
+			Tab3
+		</button>
+
+		<button class="linkClass" onclick=
+			"displayContent(event, 'tab4')">
+			Tab4
+		</button>
+
+		<button class="linkClass" onclick=
+			"displayContent(event, 'tab5')">
+			Tab5
+		</button>
+	</div>
+
+	<!-- Content for each HTML tab -->
+	<div id="tab1" class="contentClass">
+		<h3>Tab1 Content</h3>
+
+		<p>
+			This is tab1 content.
+		</p>
+
+	</div>
+
+	<div id="tab2" class="contentClass">
+		<h3>Tab2 Content</h3>
+
+		<p>
+			This is tab2 content.
+		</p>
+
+	</div>
+
+	<div id="tab3" class="contentClass">
+		<h3>Tab3 Content</h3>
+
+		<p>
+			This is tab3 content.
+		</p>
+	</div>
+
+	<div id="tab4" class="contentClass">
+		<h3>Tab4 Content</h3>
+
+		<p>
+			This is tab4 content.
+		</p>
+	</div>
+
+	<div id="tab5" class="contentClass">
+		<h3>Tab5 Content</h3>
+
+		<p>
+			This is tab5 content.
+		</p>
+	</div>
+</body>
+</html>
